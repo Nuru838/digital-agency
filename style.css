@@ -126,10 +126,43 @@
     width: 70%;
     margin: auto;
     color: white;
-    background-color: rgb(252, 21, 21);
+    background-color: red;
     border-radius: 10px;
     padding: 20px;
     margin-top: -50px;
     gap: 30px;
 }
-
+.blog-container{
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(236, 234, 234);
+    padding: 10px;
+}
+.blog-title{
+    color: black;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+}
+.blog-description{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.card{
+    height: 350px;
+    width: 350px;
+    margin-top: 20px;
+    text-align: center;
+    gap: 10px;
+    box-shadow: 4px 8px 4px grey;
+}
+.blog-image{
+    width: 100%;
+    border-radius: 5px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
